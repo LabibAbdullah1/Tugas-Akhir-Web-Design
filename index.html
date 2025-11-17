@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StadionKita - Tiket Bola Stadion Kaharuddin Nasution</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-brand" href="#hero">
+                <i class="bi bi-person-vcard-fill"></i>
+                StadionKita
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto fw-bold">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#hero">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gallery">Galeri</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#jadwal">Jadwal</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#faq">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="menu.html">Riwayat Tiket</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-primary" href="#form-pemesanan">Pesan Tiket</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header id="hero" class="hero-section">
+        <div class="container">
+            <h1 class="display-3 fw-bold text-brand">NONTON LANGSUNG DI STADION</h1>
+            <p class="lead col-lg-8 mx-auto">
+                Rasakan atmosfer paling meriah di kota Pekanbaru. Beli tiket pertandingan tim kebanggaan Anda dengan
+                mudah dan
+                aman di sini!
+            </p>
+            <a href="#form-pemesanan" class="btn btn-primary btn-lg shadow mt-3">
+                <i class="bi bi-ticket-perforated-fill"></i>
+                Beli Tiket Sekarang
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="section-padding bg-dark-secondary">
+            <div class="container">
+                <div class="row align-items-center g-4">
+                    <div class="col-lg-6">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b7/Kaharuddin_Nasution_Stadium_gate_%282%29.jpg"
+                            class="img-fluid rounded shadow" alt="Tampak Depan Stadion">
+                    </div>
+                    <div class="col-lg-6">
+                        <h2 class="display-5 fw-bold mb-3">Tentang <span class="text-brand">StadionKita</span></h2>
+                        <p class="lead">Selamat datang di markas besar kebanggaan kita. StadionKita bukan hanya arena,
+                            tapi rumah bagi ribuan kenangan.</p>
+                        <p>Dengan kapasitas 80.000 penonton, fasilitas berstandar internasional, dan teknologi rumput
+                            hybrid terbaru, kami berkomitmen memberikan pengalaman menonton terbaik untuk Anda. Dari
+                            tribun reguler hingga lounge VIP eksklusif, setiap sudut stadion dirancang untuk kenyamanan
+                            Anda.</p>
+                        <a href="#gallery" class="btn btn-outline-light">Lihat Galeri Kami</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h2 class="display-5 fw-bold mb-5">Galeri <span class="text-brand">Stadion</span></h2>
+                    </div>
+                </div>
+                <div id="galleryCarousel" class="carousel slide shadow-lg rounded overflow-hidden"
+                    data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#galleryCarousel" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#galleryCarousel" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#galleryCarousel" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/b/b7/Kaharuddin_Nasution_Stadium_gate_%282%29.jpg"
+                                class="d-block w-100" alt="Suasana Tribun">
+                            <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 rounded">
+                                <h5>Tampak depan stadion</h5>
+                                <p>ini adalah tampak depan stadion Kaharuddin Nasution.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Kaharuddin_Nasution_Stadium_gate.JPG/1920px-Kaharuddin_Nasution_Stadium_gate.JPG"
+                                class="d-block w-100" alt="Lounge VIP">
+                            <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 rounded">
+                                <h5>Lounge VIP</h5>
+                                <p>Kenyamanan eksklusif dengan pemandangan terbaik.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://mediacenter.riau.go.id/foto_berita/medium/jelang-liga-2-grup-a-stadion-kahar.jpg"
+                                class="d-block w-100" alt="Pemandangan Malam Hari">
+                            <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 rounded">
+                                <h5>Pertandingan Malam</h5>
+                                <p>Keajaiban stadion di bawah sorotan lampu.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#galleryCarousel"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#galleryCarousel"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section id="jadwal" class="section-padding bg-dark-secondary">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h2 class="display-5 fw-bold mb-5">Jadwal & <span class="text-brand">Tiket</span></h2>
+                    </div>
+                </div>
+                <div class="row g-4 justify-content-center">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card h-100 shadow-lg">
+                            <div class="card-header fs-5">Sabtu, 22 Nov 2025</div>
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title fs-3 text-brand">TIM A vs TIM B</h5>
+                                <p class="card-text">StadionKita - Kick-off 19:00 WIB</p>
+                                <hr>
+                                <ul class="list-unstyled mb-4 text-white">
+                                    <li><i class="bi bi-check-circle text-brand me-2"></i><strong>Reguler:</strong> Rp
+                                        75.000</li>
+                                    <li><i class="bi bi-check-circle text-brand me-2"></i><strong>VIP:</strong> Rp
+                                        250.000</li>
+                                </ul>
+                                <a href="#form-pemesanan" class="btn btn-primary mt-auto">Pilih Tiket Ini</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card h-100 shadow-lg">
+                            <div class="card-header fs-5">Selasa, 25 Nov 2025</div>
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title fs-3 text-brand">TIM C vs TIM D</h5>
+                                <p class="card-text">StadionKita - Kick-off 20:00 WIB</p>
+                                <hr>
+                                <ul class="list-unstyled mb-4 text-white">
+                                    <li><i class="bi bi-check-circle text-brand me-2"></i><strong>Reguler:</strong> Rp
+                                        100.000</li>
+                                    <li><i class="bi bi-check-circle text-brand me-2"></i><strong>VIP:</strong> Rp
+                                        350.000</li>
+                                </ul>
+                                <a href="#form-pemesanan" class="btn btn-primary mt-auto">Pilih Tiket Ini</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card h-100 shadow-lg">
+                            <div class="card-header fs-5">Minggu, 30 Nov 2025</div>
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title fs-3 text-brand">TIM E vs TIM F</h5>
+                                <p class="card-text">StadionKita - Kick-off 15:30 WIB</p>
+                                <hr>
+                                <ul class="list-unstyled mb-4 text-white">
+                                    <li><i class="bi bi-check-circle text-brand me-2"></i><strong>Reguler:</strong> Rp
+                                        50.000</li>
+                                    <li><i class="bi bi-check-circle text-brand me-2"></i><strong>VIP:</strong> Rp
+                                        200.000</li>
+                                </ul>
+                                <a href="#form-pemesanan" class="btn btn-primary mt-auto">Pilih Tiket Ini</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="faq" class="section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h2 class="display-5 fw-bold mb-5">Pertanyaan <span class="text-brand">Cepat</span></h2>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-9">
+                        <div class="accordion" id="faqAccordion">
+
+                            <div class="accordion-item mb-2">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Bagaimana cara saya mendapatkan tiket setelah membayar?
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                    aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        Setelah pembayaran berhasil, e-ticket akan dikirimkan langsung ke alamat email
+                                        Anda
+                                        dalam
+                                        bentuk PDF dan Kode QR. Anda tidak perlu mencetak tiket, cukup tunjukkan Kode QR
+                                        di HP
+                                        Anda
+                                        di gerbang masuk.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item mb-2">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Apakah saya bisa membatalkan atau me-refund tiket?
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                    data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        Mohon maaf, semua tiket yang sudah dibeli bersifat final dan tidak dapat
+                                        dibatalkan
+                                        (non-refundable) atau dijadwalkan ulang (non-reschedulable) dengan alasan
+                                        apapun,
+                                        kecuali ada
+                                        pembatalan resmi dari pihak penyelenggara.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item mb-2">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        Apa perbedaan antara tiket Reguler dan VIP?
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        <strong>Tiket Reguler</strong> memberikan Anda akses ke tribun reguler (Timur,
+                                        Utara,
+                                        Selatan). <br><strong>Tiket VIP</strong> memberikan Anda akses ke tribun Barat
+                                        dengan
+                                        kursi
+                                        *single-seat* yang lebih nyaman, pemandangan terbaik ke lapangan, dan akses ke
+                                        *lounge*
+                                        khusus (*makanan & minuman dijual terpisah*).
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item mb-2">
+                                <h2 class="accordion-header" id="headingFour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFour" aria-expanded="false"
+                                        aria-controls="collapseFour">
+                                        Apakah ada batasan jumlah tiket yang bisa dibeli per orang?
+                                    </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                    data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        Ya, untuk memastikan distribusi tiket yang adil, setiap orang dibatasi maksimal
+                                        pembelian 5
+                                        tiket per transaksi per pertandingan.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item mb-2">
+                                <h2 class="accordion-header" id="headingFive">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFive" aria-expanded="false"
+                                        aria-controls="collapseFive">
+                                        Jam berapa gerbang stadion dibuka sebelum *kick-off*?
+                                    </button>
+                                </h2>
+                                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                                    data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        Gerbang stadion biasanya dibuka **3 (tiga) jam sebelum jadwal *kick-off* resmi**
+                                        pertandingan dimulai. Kami sarankan datang lebih awal untuk menghindari antrean
+                                        dan
+                                        menikmati suasana pra-pertandingan.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item mb-2">
+                                <h2 class="accordion-header" id="headingSix">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                        Apakah ada batas usia minimum untuk masuk stadion?
+                                    </button>
+                                </h2>
+                                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                                    data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        Anak-anak di bawah usia 5 tahun tidak diperbolehkan masuk. Anak-anak berusia 5
+                                        hingga 12
+                                        tahun wajib didampingi oleh orang dewasa dan harus memiliki tiket masuk sendiri.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item mb-2">
+                                <h2 class="accordion-header" id="headingSeven">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseSeven" aria-expanded="false"
+                                        aria-controls="collapseSeven">
+                                        Bolehkah saya membawa makanan dan minuman dari luar ke dalam stadion?
+                                    </button>
+                                </h2>
+                                <div id="collapseSeven" class="accordion-collapse collapse"
+                                    aria-labelledby="headingSeven" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        Tidak diperbolehkan. Demi alasan keamanan dan kenyamanan, pengunjung dilarang
+                                        membawa
+                                        makanan dan minuman dari luar. Tersedia berbagai *tenant* makanan dan minuman di
+                                        dalam
+                                        area stadion.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item mb-2">
+                                <h2 class="accordion-header" id="headingEight">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseEight" aria-expanded="false"
+                                        aria-controls="collapseEight">
+                                        Apakah stadion menyediakan fasilitas untuk penonton disabilitas?
+                                    </button>
+                                </h2>
+                                <div id="collapseEight" class="accordion-collapse collapse"
+                                    aria-labelledby="headingEight" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        Ya, kami menyediakan area tribun khusus dengan akses landai dan kamar mandi yang
+                                        mudah
+                                        dijangkau untuk penonton disabilitas. Mohon hubungi layanan pelanggan setelah
+                                        memesan
+                                        tiket untuk pengaturan kursi.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item mb-2">
+                                <h2 class="accordion-header" id="headingNine">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseNine" aria-expanded="false"
+                                        aria-controls="collapseNine">
+                                        Apakah ada area parkir khusus di sekitar stadion?
+                                    </button>
+                                </h2>
+                                <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine"
+                                    data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        Area parkir yang luas tersedia di zona timur dan barat stadion dengan biaya
+                                        harian. Kami
+                                        sangat merekomendasikan penggunaan transportasi publik untuk mengurangi
+                                        kemacetan.
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="form-pemesanan" class="section-padding bg-dark-secondary">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h2 class="display-5 fw-bold mb-5">Form Pemesanan <span class="text-brand">Tiket</span></h2>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <form id="bookingForm" class="shadow p-4 p-md-5 rounded">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <label for="inputName" class="form-label">Nama Lengkap</label>
+                                    <input type="text" class="form-control" id="inputName" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="inputEmail" class="form-label">Email (untuk E-Ticket)</label>
+                                    <input type="email" class="form-control" id="inputEmail" required>
+                                </div>
+                                <div class="col-12">
+                                    <label for="inputPhone" class="form-label">Nomor HP (WhatsApp)</label>
+                                    <input type="tel" class="form-control" id="inputPhone" required>
+                                </div>
+                                <div class="col-md-8">
+                                    <label for="inputMatch" class="form-label">Pilih Pertandingan</label>
+                                    <select id="inputMatch" class="form-select" required>
+                                        <option selected disabled value="">Pilih...</option>
+                                        <option>TIM A vs TIM B (22 Nov)</option>
+                                        <option>TIM C vs TIM D (25 Nov)</option>
+                                        <option>TIM E vs TIM F (30 Nov)</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-4">
+                                    <label for="inputQty" class="form-label">Jumlah Tiket</label>
+                                    <input type="number" class="form-control" id="inputQty" value="1" min="1" max="5"
+                                        required>
+                                </div>
+                                <div class="col-12">
+                                    <label class="form-label d-block">Pilih Tipe Tiket</label>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="ticketType" id="typeReguler"
+                                            value="reguler" checked>
+                                        <label class="form-check-label" for="typeReguler">Penonton Biasa
+                                            (Reguler)</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="ticketType" id="typeVip"
+                                            value="vip">
+                                        <label class="form-check-label" for="typeVip">VIP</label>
+                                    </div>
+                                </div>
+                                <div class="col-12 text-center mt-5">
+                                    <button type="submit" class="btn btn-primary btn-lg shadow">
+                                        <i class="bi bi-send-fill me-2"></i> Submit Pemesanan
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div id="myAlert" class=" alert alert-warning alert-dismissible fade hidden d-none" role="alert">
+            <strong>Pemesanan Berhasil!</strong> Link pembayaran telah dikirim ke email Anda. Silakan cek inbox
+            atau folder spam.
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    </main>
+
+    <footer class="footer text-center py-4 mt-5">
+        <div class="container">
+            <div class="mb-3">
+                <a href="#" class="text-brand fs-4 mx-2"><i class="bi bi-twitter-x"></i></a>
+                <a href="#" class="text-brand fs-4 mx-2"><i class="bi bi-instagram"></i></a>
+                <a href="#" class="text-brand fs-4 mx-2"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="text-brand fs-4 mx-2"><i class="bi bi-youtube"></i></a>
+            </div>
+            <p class="mb-0 text-muted text-brand">&copy; 2025 StadionKita. All Rights Reserved. </p>
+        </div>
+    </footer>
+
+
+    <div class="modal fade" id="confirmPaymentModal" tabindex="-1" aria-labelledby="confirmPaymentModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content bg-dark-secondary text-light">
+                <div class="modal-header border-bottom border-warning">
+                    <h5 class="modal-title text-brand" id="confirmPaymentModalLabel">Konfirmasi Pembayaran</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body py-4">
+                    <p class="fs-5 text-center">
+                        Anda akan melanjutkan pemesanan tiket.
+                    </p>
+                    <i class="bi bi-envelope-fill text-brand d-block text-center mb-3" style="font-size: 2.5rem;"></i>
+                    <p class="text-center fw-bold">
+                        Link pembayaran (Virtual Account/Transfer) akan **dikirimkan ke email** Anda.
+                    </p>
+                    <p class="text-center small text-brand">
+                        Pastikan email Anda aktif. Mohon segera lakukan pembayaran setelah menerima link.
+                    </p>
+                </div>
+                <div class="modal-footer border-top border-secondary justify-content-center">
+                    <button type="button" class="btn btn-outline-light" data-bs-dismiss="modal">Batal</button>
+                    <button type="button" class="btn btn-primary" id="btnConfirmPayment">Ya, Kirim Link
+                        Pembayaran</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
