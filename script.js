@@ -3,6 +3,7 @@ const confirmPaymentModalElement = document.getElementById('confirmPaymentModal'
 const confirmPaymentModal = new bootstrap.Modal(confirmPaymentModalElement);
 const btnConfirm = document.getElementById('btnConfirmPayment');
 
+// Handle form submission
 bookingForm.addEventListener('submit', function (event) {
     event.preventDefault();
     if (bookingForm.checkValidity()) {
@@ -12,6 +13,7 @@ bookingForm.addEventListener('submit', function (event) {
     }
 });
 
+// Show alert on payment confirmation
 const alertElement = document.getElementById('myAlert');
 btnConfirm.addEventListener('click', function () {
     confirmPaymentModal.hide();
