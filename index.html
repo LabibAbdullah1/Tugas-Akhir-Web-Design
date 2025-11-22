@@ -147,7 +147,7 @@
                 </div>
             </div>
         </section>
-        
+
         <!-- Schedule Section -->
         <section id="jadwal" class="section-padding bg-dark-secondary">
             <div class="container">
@@ -468,13 +468,13 @@
                 </div>
             </div>
         </section>
-        <div id="myAlert" class=" alert alert-warning alert-dismissible fade hidden d-none" role="alert">
-            <strong>Pemesanan Berhasil!</strong> Link pembayaran telah dikirim ke email Anda. Silakan cek inbox
-            atau folder spam.
-            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        <!-- Alert Pemesanan -->
+        <div id="myAlert" class="alert alert-warning alert-dismissible fade d-none shadow-lg border mt-4" role="alert">
+            <strong>Pemesanan Berhasil!</strong> Link pembayaran telah dikirim ke email Anda. <strong>Terima kasih
+                memesan tiket di StadionKita.</strong>
         </div>
     </main>
-    
+
     <!-- Footer -->
     <footer class="footer text-center py-4 mt-5">
         <div class="container">
@@ -491,37 +491,53 @@
     <div class="modal fade" id="confirmPaymentModal" tabindex="-1" aria-labelledby="confirmPaymentModalLabel"
         aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content bg-dark-secondary text-light">
+            <div class="modal-content bg-dark-secondary text-light shadow-lg border border-warning">
+
                 <div class="modal-header border-bottom border-warning">
-                    <h5 class="modal-title text-brand" id="confirmPaymentModalLabel">Konfirmasi Pembayaran</h5>
+                    <h5 class="modal-title text-brand fw-bold" id="confirmPaymentModalLabel">
+                        Konfirmasi Pembayaran
+                    </h5>
                     <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
                         aria-label="Close"></button>
                 </div>
+
                 <div class="modal-body py-4">
-                    <p class="fs-5 text-center">
+
+                    <p class="fs-5 text-center mb-3">
                         Anda akan melanjutkan pemesanan tiket.
                     </p>
-                    <i class="bi bi-envelope-fill text-brand d-block text-center mb-3" style="font-size: 2.5rem;"></i>
+
+                    <i class="bi bi-envelope-fill text-brand d-block text-center mb-3" style="font-size: 3rem;"></i>
+
                     <p class="text-center fw-bold">
-                        Link pembayaran (Virtual Account/Transfer) akan **dikirimkan ke email** Anda.
+                        Link pembayaran (Virtual Account / Transfer) akan dikirimkan ke email Anda.
                     </p>
+
                     <p class="text-center small text-brand">
-                        Pastikan email Anda aktif. Mohon segera lakukan pembayaran setelah menerima link.
+                        Pastikan email Anda aktif. Lakukan pembayaran segera setelah menerima link.
                     </p>
+
                 </div>
+
                 <div class="modal-footer border-top border-secondary justify-content-center">
-                    <button type="button" class="btn btn-outline-light" data-bs-dismiss="modal">Batal</button>
-                    <button type="button" class="btn btn-primary" id="btnConfirmPayment">Ya, Kirim Link
-                        Pembayaran</button>
+                    <button type="button" class="btn btn-secondary px-4" data-bs-dismiss="modal">
+                        Batal
+                    </button>
+                    <button id="btnConfirmPayment" type="button" class="btn btn-primary px-4">
+                        Ya, Kirim Link
+                        Pembayaran
+                    </button>
                 </div>
+
             </div>
         </div>
     </div>
+
     <!-- Bootstrap JS Bundle -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
-        
+
     <!-- Custom JS -->
     <script type="text/javascript" src="script.js"></script>
 </body>
